@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns="http://java.sun.com/xml/ns/javaee"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/application_8.xsd"
+             version="8">
+
+    <module id="TP_EJB1-Web">
+        <web>
+            <context-root>TP_EJB1Web</context-root>
+            <web-uri>TP.war</web-uri>
+        </web>
+    </module>
+    <module id="ConverterEJB-EJB">
+        <ejb>ConverterEJB_ejb.jar</ejb>
+    </module>
+</application>

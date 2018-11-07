@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="TP_EJB1:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/TP_EJB1_war</output-path>
+    <root id="archive" name="TP_EJB1_war.war">
+      <element id="javaee-facet-resources" facet="TP_EJB1/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="TP_EJB1" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
